@@ -1,4 +1,4 @@
-# Programming Massively Parallel Hardware (PMPH), Block 1 2025
+# Programming Massively Parallel Hardware (PMPH), Block 1, 2025
 
 ### We are grateful to Nvidia for awarding us a teaching grant (for the PMPH and DPP courses) that consists of two A100 GPUs. These are now accessible on the Hendrix GPU cluster.
 
@@ -14,7 +14,7 @@ can concentrate on project work (to be announced).
 ### Lectures:
 
 * Monday    13:00 - 15:00 (aud - AUD 01 AKB, Universitetsparken 13)
-* Wednesday 10:00 - 12:00 (aud - Aud 01 HCØ, (Universitetsparken 5, HCØ)
+* Wednesday 10:00 - 12:00 (aud - Aud 01 HCØ, i.e., Universitetsparken 5, HCØ)
 
 ### Labs:
 
@@ -40,7 +40,7 @@ of streaming.
 
 Throughout the course, you will hand in six assignments, which will sum
 up to 100 points. Final grades are computed according to the following scheme:
-* >= 90 translates to grade 12
+* $\geq$ 90 translates to grade 12
 * >= 80 translates to grade 10
 * >= 66 translates to grade  7
 * >= 56 translates to grade  4
