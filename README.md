@@ -41,11 +41,11 @@ of streaming.
 Throughout the course, you will hand in six assignments, which will sum
 up to 100 points. Final grades are computed according to the following scheme:
 * $\geq$ 90 translates to grade 12
-* >= 80 translates to grade 10
-* >= 66 translates to grade  7
-* >= 56 translates to grade  4
-* >= 50 translates to grade  2
-* < 50 means fails, i.e., grade 0
+* $\geq$ 80 translates to grade 10
+* $\geq$ 66 translates to grade  7
+* $\geq$ 56 translates to grade  4
+* $\geq$ 50 translates to grade  2
+* $<$ 50 means fails, i.e., grade 0
 
 All assignments are individual in the sense that each student has to fully 
 understand all aspects of the solution (which includes the submitted code)
@@ -53,7 +53,8 @@ and the report should include personal reflections on the handed-in solution.
 However, some assignments can be solved by a group of students, as detailed
 in the itemized list below, and the report should document the name of the
 student who wrote a specific section/part of the report. Of course, all
-group members should have roughly equal contributions to the report writing.
+group members should have roughly equal contributions to the solution and
+report writing.
 If there is disagreement within a group, you may duplicate disputed sections
 to have different content, while documenting the name of the authors.
 
@@ -69,11 +70,11 @@ to have different content, while documenting the name of the authors.
     roughly during the last month of the course.
     They essentially consists of a larger project, in which Assignment 5 refers to
     submitting the code solution, and Assignment 6 refers to submitting the report.
-    This intends to stresses that the quality of the report will be reflected in
+    This intends to stress that the quality of the report will be reflected in
     the final grade. Meaning: if the report is poor, you will loose points.
     It also stands to reason that the quality of the report is also tightly
     related to the quality of the solution (implementation), i.e., if the solution
-    is not up to the standards, the report will suffer as well.
+    is not up to the standards, the report is bound to suffer as well.
 
 * There will be no oral presentation of the "group" project (i.e., Assignment 5 & 6),
     because the course have grown and there are too many students enrolled in PMPH.
