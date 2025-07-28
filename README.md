@@ -80,10 +80,10 @@ to have different content, while documenting the name of the authors.
     because the course have grown and there are too many students enrolled in PMPH.
 
 Assignments 1-4 can be resubmitted *once*, within one week since the time that
-you received feedback for each of them. If you did not got the maximal number
-points you are allowed to resubmit, only if you wish (not mandatory).
+you have received feedback for each of them. If you did not get the maximal number
+points, you are allowed to resubmit, only if you wish to (not mandatory).
 
-For Assignments 5 and 6, no resubmission is possible, as the deadlines are
+For Assignments 5 and 6, no resubmission is possible, since the deadlines are
 just before exam week (Assignment 5) and within the exam week (Assignment 6).
 
 For more information on weekly assignments and (re-)submission, please see [this
