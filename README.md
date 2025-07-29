@@ -1,6 +1,6 @@
 # Programming Massively Parallel Hardware (PMPH), Block 1, 2025
 
-### We are grateful to Nvidia for awarding us a teaching grant (for the PMPH and DPP courses) that consists of two A100 GPUs. These are now accessible on the Hendrix GPU cluster.
+### We are grateful to Nvidia for awarding a teaching grant (for the PMPH and DPP courses) that consists of two A100 GPUs. These are now accessible on the Hendrix GPU cluster.
 
 ## Course Structure
 
@@ -66,22 +66,24 @@ to have different content, while documenting the name of the authors.
   Both have the same hand-in and hand-out date, as detailed later, since they
   have a common theme: optimizing locality of reference.
 
-* Assignment 5 (25 points) and 6 (25 points) are to be solved in groups of 3 or 4,
-    roughly during the last month of the course.
+* Assignment 5 (25 points) and 6 (25 points) are to be solved in groups of up to
+    3 or 4 students, roughly during the last month of the course.
     They essentially consists of a larger project, in which Assignment 5 refers to
     submitting the code solution, and Assignment 6 refers to submitting the report.
     This intends to stress that the quality of the report will be reflected in
     the final grade. Meaning: if the report is poor, you will loose points.
-    It also stands to reason that the quality of the report is also tightly
+    It also stands to reason that the quality of the report is tightly
     related to the quality of the solution (implementation), i.e., if the solution
     is not up to the standards, the report is bound to suffer as well.
 
 * There will be no oral presentation of the "group" project (i.e., Assignment 5 & 6),
-    because the course have grown and there are too many students enrolled in PMPH.
+    because the number of enrolled students has grown and it is not practical anymore.
 
-Assignments 1-4 can be resubmitted *once*, within one week since the time that
+### Resubmission of Assignments
+
+Assignments 1-4 can be resubmitted *once*, within one week since the time when
 you have received feedback for each of them. If you did not get the maximal number
-points, you are allowed to resubmit, only if you wish to (not mandatory).
+of points, you are allowed to resubmit, only if you wish to do so (not mandatory).
 
 For Assignments 5 and 6, no resubmission is possible, since the deadlines are
 just before exam week (Assignment 5) and within the exam week (Assignment 6).
@@ -89,4 +91,35 @@ just before exam week (Assignment 5) and within the exam week (Assignment 6).
 For more information on weekly assignments and (re-)submission, please see [this
 section](#weekly-assignments).
 
-**The submission of all Assignments is on Absalon. Please do NOT submit solutions on this Github Repo.**
+**The submission and re-submission of all Assignments is on Absalon. Please do NOT submit solutions on this Github Repo.**
+
+### Teachers
+
+Teachers: 
+
+* **Cosmin Oancea** ([cosmin.oancea@diku.dk](mailto:cosmin.oancea@diku.dk)). Cosmin is typically holding most lectures and labs of PMPH, but this year he might be in parental leave for the first week(s) of the course.
+* **Nikolaj Hinnerskov** [nihi@di.ku.dk](mailto:nihi@di.ku.dk). Nikolaj might have to hold the lectures and labs of the first week. 
+* **Martin Elsman**      [mael@di.ku.dk](mailto:mael@di.ku.dk). If necessary, Martin and Nikolaj will collaborate to cover the lectures and labs of the second week of the course.
+
+Teaching assistants (TAs):
+* **Jóhann Utne** [johann.utne@di.ku.dk](mailto:johann.utne@di.ku.dk)
+* ...
+
+Cosmin typically conducts the lectures and lab sessions, but this year he might be in parental leave for the first two week(s) of the course. If so, the plan is that Nikolaj will hold the lectures and labs of the first week of the course, and, if necessary, Nikolaj and Martin will collaborate to cover the second week. 
+
+Jóhann and <Yet-Unknown-TA> will be (pre-)grading your first 4 assignments, will be patrolling the online (Absalon) discussion forums, and will assist with lab sessions.
+
+### Course Tracks and Resources
+
+All lectures and lab sessions will be delivered in English.  The
+assignments and projects will be posted in English, and while you can
+chose to hand in solutions in either English or Danish, English is
+preferred. All course material except for the hardware book is distributed
+via this GitHub page. **Note: assignment handin is still on Absalon!**
+
+* **The hardware track** of the course covers (lecture) topics related to processor, memory and interconnect design, including cache coherency, which are selected from the book [Parallel Computer Organization and Design, by Michel Dubois, Murali Annavaram and Per Stenstrom,  ISBN 978-521-88675-8. Cambridge University Press, 2012](https://www.cambridge.org/dk/academic/subjects/engineering/computer-engineering/parallel-computer-organization-and-design?format=HB&isbn=9780521886758). The book is available at the local bookstore (biocenter). It is not mandatory to buy it---Cosmin thinks that it is possible to understand the material from the lecture slides, which are detailed enough---but also note that lecture notes are not provided for the hardware track, because of copyright issues.
+
+* **The software track** covers (lecture) topics related to parallel-programming models and recipes to recognize and optimize parallelism and locality of reference.  It demonstrates that compiler optimizations are essential to fully utilizing hardware, and that some optimizations can be implemented both in hardware and software, but with different pro and cons.   [The lecture notes are available here](http://hjemmesider.diku.dk/~zgh600/Publications/lecture-notes-pmph.pdf), and additional (facultative) reading material (papers) will be linked with individual lectures; see Course Schedule Section below.
+
+* **The lab track** teaches GPGPU hardware specifics and programming in Futhark, CUDA, and OpenMP. The intent is that the lab track applies in practice some of the parallel programming principles and optimizations techniques discussed in the software tracks. It is also intended to provide help for the weekly assignment, group project, etc.
+
