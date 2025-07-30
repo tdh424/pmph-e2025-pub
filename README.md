@@ -47,49 +47,9 @@ up to 100 points. Final grades are computed according to the following scheme:
 * $\geq$ 50 translates to grade  2
 * $<$ 50 means fails, i.e., grade 0
 
-All assignments are individual in the sense that each student has to fully 
-understand all aspects of the solution (which includes the submitted code)
-and the report should include personal reflections on the handed-in solution.
-However, some assignments can be solved by a group of students, as detailed
-in the itemized list below, and the report should document the name of the
-student who wrote a specific section/part of the report. Of course, all
-group members should have roughly equal contributions to the solution and
-report writing.
-If there is disagreement within a group, you may duplicate disputed sections
-to have different content, while documenting the name of the authors.
-
-* Assignment 1: 10 points, fully individual solutions and report.
-
-* Assignment 2: 15 points, fully individual solutions and report.
-
-* Assignment 3 (10 points) and 4 (15 points) are to be solved in groups of two.
-  Both have the same hand-in and hand-out date, as detailed later, since they
-  have a common theme: optimizing locality of reference.
-
-* Assignment 5 (25 points) and 6 (25 points) are to be solved in groups of up to
-    3 or 4 students, roughly during the last month of the course.
-    They essentially consists of a larger project, in which Assignment 5 refers to
-    submitting the code solution, and Assignment 6 refers to submitting the report.
-    This intends to stress that the quality of the report will be reflected in
-    the final grade. Meaning: if the report is poor, you will loose points.
-    It also stands to reason that the quality of the report is tightly
-    related to the quality of the solution (implementation), i.e., if the solution
-    is not up to the standards, the report is bound to suffer as well.
-
-* There will be no oral presentation of the "group" project (i.e., Assignment 5 & 6),
-    because the number of enrolled students has grown and it is not practical anymore.
-
-### Resubmission of Assignments
-
-Assignments 1-4 can be resubmitted *once*, within one week since the time when
-you have received feedback for each of them. If you did not get the maximal number
-of points, you are allowed to resubmit, only if you wish to do so (not mandatory).
-
-For Assignments 5 and 6, no resubmission is possible, since the deadlines are
-just before exam week (Assignment 5) and within the exam week (Assignment 6).
 
 For more information on weekly assignments and (re-)submission, please see [this
-section](#weekly-assignments).
+section](#assignments).
 
 **The submission and re-submission of all Assignments is on Absalon. Please do NOT submit solutions on this Github Repo.**
 
@@ -174,4 +134,240 @@ the lab sessions.
 | 29/10 | 10:00-12:00 | Lecture: helping with group project | |
 | 29/10 | 13:00-15:00 | Lab: help with group project |
 | 02/11 |             | Assignment 5 Submission Deadline |
-| 05/11 |             | Assignment 6 Submission Deadline | 
+| 05/11 |             | Assignment 6 Submission Deadline |
+
+## Assignments
+
+**All submissions and resubmissions are to be made on Absalon!**
+
+All assignments are individual in the sense that each student has to fully 
+understand all aspects of the solution (which includes the submitted code)
+and the report should include personal reflections on the handed-in solution.
+
+However, some assignments can be solved by a group of students, as detailed
+in the itemized list below, and the report should document the name of the
+student who wrote a specific section/part of the report. Of course, all
+group members should have roughly equal contributions to the solution and
+report writing.
+If there is disagreement within a group, you may duplicate disputed sections
+to have different content, while documenting the name of the authors.
+
+* Assignment 1 (10 points): published as late as Wednesday of the first week
+     and requires fully individual solutions and report.
+
+* Assignment 2 (15 points): published as late as Wednesday of the first week
+     and requires fully individual solutions and report.
+
+* Assignment 3 (10 points) and 4 (15 points) are to be solved in groups of two.
+  Both have the same hand-in and hand-out date, as detailed later, since they
+  have a common theme: optimizing locality of reference. Probably published
+  on Monday of the fourth week.
+
+* Assignment 5 (25 points) and 6 (25 points) are to be solved in groups of up to
+    3 or 4 students, roughly during the last month of the course.
+    They essentially consists of a larger project, in which Assignment 5 refers to
+    submitting the code solution, and Assignment 6 refers to submitting the report.
+    This intends to stress that the quality of the report will be reflected in
+    the final grade. Meaning: if the report is poor, you will loose points.
+    It also stands to reason that the quality of the report is tightly
+    related to the quality of the solution (implementation), i.e., if the solution
+    is not up to the standards, the report is bound to suffer as well.
+
+* There will be no oral presentation of the "group" project (i.e., Assignment 5 & 6),
+    because the number of enrolled students has grown and it is not practical anymore.
+
+For more information, please see the course schedule and the sections below.
+
+### Submission and Resubmission of Assignments
+
+One resubmission attempt is granted for assignments 1-4, and the
+resubmission attempt may be used to solve tasks missing in the original
+hand-in and/or to improve on the existing hand-in. Resubmissions must
+be submitted within a week since you have received the feedback for the
+corresponding assignment. Please note that the first upload made on Absalon
+*after* the original hand-in deadline will be considered as the resubmission hand-in!
+
+The TAs will strive to provide feedback within 1.5 weeks of the submission 
+deadline. Extensions may be granted on weekly assignment (re-)submission deadlines --
+please ask the TAs if for any reason, personal or otherwise, you need an extension
+(no need to involve Cosmin unless you wish to complain about the TAs decisions).
+
+For Assignments 5 and 6, no resubmission is possible, since the deadlines are
+just before exam week (Assignment 5) and within the exam week (Assignment 6).
+
+### Assignment 1 (due September 10th)
+
+* [Assignment text](weeklies/weekly-1/assignment1.asciidoc)
+* [Code handin](weeklies/weekly-1/w1-code-handin.tar.gz)
+
+### Assignment 2 (due September 22nd)
+
+* [Assignment text](weeklies/weekly-2/assignment2.asciidoc)
+* [Code handout](weeklies/weekly-2/w2-code-handin.tar.gz)
+
+### Assignments 3+4 (due October 6th) -- this is a bigger assignment counting as two assignments
+
+* [Assignment text](weeklies/weekly-3-4/assignment3-4.asciidoc)
+* [Code handout](weeklies/weekly-3-4/w3-code-handin.tar.gz)
+
+
+## Assignment 5 + 6 (Group project) tentatively due on 2nd and 5th of November, respsectivelly
+
+Several potential choices for group project may be found in folder `group-projects`, namely
+
+* **You are free to propose your own project, for example from the machine learning field, but please discuss it first with Cosmin, to make sure it is a relevant project, i.e., on which you can apply some of the techniques/reasoning that we have studied in PMPH.**
+* [Single Pass Scan in Cuda (basic block of parallel programming)](group-projects/single-pass-scan)
+* [Futhark or Cuda implementation for the Rank-K Search Problem](group-projects/rank-search-k)
+* [Fast Sorting Algorithm(s) for GPUs](group-projects/sorting-on-gpu)
+* [Bfast: a landscape change detection algorithm (Remote Sensing)](group-projects/bfast)
+* [Local Volatility Calibration  (Finance)](group-projects/loc-vol-calib)
+* [HP Implementation for Fusing Tensor Contractions (Deep Learning)](group-projects/tensor-contraction): read the paper, implement the technique (some initial code is provided), and try to replicate the results of the paper. Or you can also try to implement a matrix multiplication for 16-bit floats that uses the tensor-core support.
+
+[Here you can find the CUB library and a simple program that utilizes CUB to sort](group-projects/cub-code-radixsort)
+
+
+## GPU + MultiCore Machines
+
+All students will be provided individual accounts on a multi-core and GPGPU
+machine that supports multi-core programming via C++/OpenMP and CUDA
+programming.
+
+The available machines are equipped with top-end A100 GPUs & two AMD EPYC 7352
+24-Core CPUs (total 96 hardware threads). You should have access to these
+machines from September 2.
+
+More specifically, the GPUs are located on the Futhark servers,
+<!-- (access to which is obtained via the Hendrix gateway; connection guide below), -->
+which include:
+`hendrixfut01fl` or `hendrixfut03fl` servers, each of which is equipped with an
+NVIDIA A100 GPU, on which you can run CUDA programs; and `hendrixfut02fl`, which
+has an AMD GPU and hence cannot run CUDA programs (but which can run OpenCL
+binaries, e.g. compiled using Futhark).
+
+
+### Basic Futhark server connection guide
+
+This basic connection guide is subject to change and may contain errors or
+have missing information. Please ask Anders if you have trouble logging onto the
+servers, or Cosmin, if you suspect the problem is an access/permission issue.
+
+<!--  For more comprehensive info on the Hendrix cluster and how to connect, please see [this](https://diku-dk.github.io/wiki/slurm-cluster). -->
+
+#### Step 0 -- update ssh config (one-time, optional)
+
+<!--  Add the Hendrix gateway server to your ssh config by appending below paragraph: -->
+
+Add the Futhark server to your ssh config by appending the paragraph below
+
+```
+Host futhark03
+    HostName hendrixfut03fl
+    User <KU-id>
+    StrictHostKeyChecking no
+    CheckHostIP no
+    UserKnownHostsFile=/dev/null
+```
+
+to your ssh config file, located in either `$HOME/.ssh/config` for Linux/MacOS,
+or `C:/Users/<user>/.ssh/config` for Windows (note: a simple text file with no
+file extension). Remember to replace `<KU-id>` in line 3 with your personal
+KU-id.  
+
+You may add other such paragraphs for `hendrixfut01fl` and `hendrixfut02fl`.
+
+#### Step 1 -- connect to KU-VPN
+
+*Each time* you wish to SSH to the Hendrix cluster/gateway, you must first be
+properly connected to KU-VPN. If you get a "Name or service not known" error
+from `ssh`, then you are probably not connected to the VPN. See [this guide on
+connecting to KU-VPN](https://github.com/diku-dk/howto/blob/main/vpn.md).
+
+<!--
+
+#### Step 2 -- connect to Hendrix gateway
+
+If you updated your ssh config as per step 0 and are properly connected to
+KU-VPN, you may SSH to the Hendrix gateway using:
+
+```bash
+$ ssh hendrix
+```
+
+If you skipped step 0, you may need to manually supply appropriate flags to
+`ssh` on each login.
+
+##### Step 2b -- setup CUDA dev environment (one-time). Cosmin thinks that this step is NOT NEEDED!
+
+The **first time** you log onto the Hendrix gateway, you must setup the CUDA dev
+environment. To do so, permanently update your path by appending below snippet
+to your `$HOME/.bash_profile` and/or `$HOME/.bashrc` files:
+
+```bash
+export CPATH=/usr/local/cuda/include:$CPATH
+export LIBRARY_PATH=/usr/local/cuda/lib64:$LIBRARY_PATH
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+export PATH=/usr/local/cuda/bin:$PATH
+```
+
+Finally, reload the affected file/s using `source $HOME/.bash_profile`
+and/or `source $HOME/.bashrc` (or simply starting a new bash session).
+
+#### Step 3 -- connect to Futhark machine on the Hendrix cluster
+
+From the Hendrix gateway shell, you may log further onto one of the Futhark
+machines using e.g.:
+
+```bash
+$ ssh hendrixfut03fl
+```
+
+-->
+
+#### Step 2 -- connect to Futhark machine on the Hendrix cluster
+
+If you updated your ssh config as per step 0 and are properly connected to
+KU-VPN, you may SSH to the futhark machine using something like:
+
+```bash
+$ ssh futhark03
+```
+
+Once logged onto a Futhark server (e.g., `hendrixfut03fl`), you may need to
+load CUDA and/or Futhark modules using:
+
+```bash
+$ module load cuda;
+$ module load futhark;
+```
+
+Or you may add those at the end of `$HOME/.bash_profile` and/or `$HOME/.bashrc` so you do not have to perform them every time.
+
+
+<!-- ##### Alternatively: upload slurm jobs for exclusive execution -->
+<!--  -->
+<!-- If you prefer (or need) limited-time exclusive access to a GPU -- rather than -->
+<!-- logging directly onto a Futhark server along with fellow students -- then you -->
+<!-- can submit Slurm jobs to a job queue from the Hendrix gateway(s). For a very -->
+<!-- basic guide on Slurm usage, please see [this -->
+<!-- guide](https://github.com/diku-dk/howto/blob/main/servers.md). -->
+<!--  -->
+<!-- Note that using Slurm can be tedious at first, and you risk suspension of your -->
+<!-- access if you abuse the queue system, so use at your own caution. -->
+
+
+## Other resources
+
+### Futhark and CUDA
+
+* We will use a basic subset of Futhark during the course. Futhark related documentation can be found at [Futhark's webpage](https://futhark-lang.org), in particular a [tutorial](https://futhark-book.readthedocs.io/en/latest/) and [user guide](https://futhark.readthedocs.io/en/stable/)
+
+* [CUDA C Best Practices Guide](https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html) you may want to browse through this guide to see what offers. No need to read all of it closely.
+
+
+### Other Related Books
+
+* Some of the compiler transformations taught in the software track can be found
+in this book [Optimizing Compilers for Modern Architectures. Randy Allen and Ken Kennedy, Morgan Kaufmann, 2001](https://www.elsevier.com/books/optimizing-compilers-for-modern-architectures/allen/978-0-08-051324-9), but you are not expected to buy it or read for the purpose of PMPH.
+
+* Similarly, some course topics are further developed in this book [High-Performance Computing Paradigm and Infrastructure](https://www.wiley.com/en-dk/High+Performance+Computing%3A+Paradigm+and+Infrastructure-p-9780471732709), e.g., Chapters 3, 8 and 11, but again, you are not expected to buy it or read for the purpose of PMPH.
+
