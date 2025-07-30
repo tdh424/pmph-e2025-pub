@@ -88,9 +88,8 @@ via this GitHub page. **Note: assignment handin is still on Absalon!**
 This course schedule is tentative and will be updated as we go along. 
 The links will become functional as we get near to the corresponding date.
 
-The lab sessions are aimed at providing help for the weeklies and
-group project.  Do not assume you can solve them without attending
-the lab sessions.
+The lab sessions are aimed at providing help for the assignments, i.e., the four weeklies and the group project.
+It is not for granted that you are able to solve them without attending the lab sessions.
 
 | Date | Time | Topic | Material |
 | --- | --- | --- | --- |
@@ -98,19 +97,19 @@ the lab sessions.
 | 01/09 | 15:00-17:00 | [Gentle Intro to CUDA](slides/Lab1-CudaIntro.pdf) | [helper CUDA code](HelperCode/Lab-1-Cuda); as facultative material you may consult Cuda tutorials, for example [a very simple one is this one](https://developer.nvidia.com/blog/even-easier-introduction-cuda/) and [a more comprehensive one is this one](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
 | 03/09 | 10:00-12:00 | [List Homomorphism (LH) & Parallel Basic Blocks (SFT)](slides/L2-Flatenning.pdf), Chapters 2 and 3 in [Lecture Notes](http://hjemmesider.diku.dk/~zgh600/Publications/lecture-notes-pmph.pdf) | Facultative material: [Various papers related to SCAN and flattening, but which are not very accessible to students](facultative-material/Flattening) |
 | 03/09 | 13:00-15:00 | Lab: [Futhark programming](HelperCode/README.md), First Weekly | [Futhark code related to the LH lecture](HelperCode/Lect-1-LH) and as well [Futhark code related to flattening](HelperCode/Lect-2-Flat). As facultative but useful material: [Parallel Programming in Futhark](https://futhark-book.readthedocs.io/en/latest/), sections 1-4, |
-| 03/09 | some time   | [**Assignment 1 handout**](weeklies/weekly-1/) | |
+| 03/09 | some time   | [**Assignment 1 handout**](weeklies/assignment-1/) | |
 | 08/09 | 13:00-15:00 | [Parallel Basic Block & Flattening Nested Parallelism (SFT)](slides/L2-Flatenning.pdf) | chapters 3 and 4 in [Lecture Notes](http://hjemmesider.diku.dk/~zgh600/Publications/lecture-notes-pmph.pdf) |
 | 08/09 | 15:00-17:00 | Lab: [Fun Quiz](slides/Lab-fun-quiz.pdf); | help with weekly |
 | 10/09 | 10:00-12:00 | [In-Order Pipelines (HWD)](slides/L3-InOrderPipe.pdf)| Chapter 3 of "Parallel Computer Organization and Design" Book |
 | 10/09 | 13:00-15:00 | Lab: [Reduce and Scan in Cuda](slides/Lab-RedScan.pdf) | discussing second weekly, helping with the first |
-| 10/09 | some time   | [**Assignment 2 handout**](weeklies/weekly-2/) | |
+| 10/09 | some time   | [**Assignment 2 handout**](weeklies/assignment-2/) | |
 | 15/09 | 13:00-15:00 | [In-Order Pipelines (HWD)](slides/L3-InOrderPipe.pdf), [Optimizing ILP, VLIW Architectures (SFT-HWD)](slides/L4-VLIW.pdf) | Chapter 3 of "Parallel Computer Organization and Design" Book |
 | 15/09 | 15:00-17:00 | Lab: [GPU hardware: three important design choices.](slides/Lab-GPU-HWD.pdf) | helping with weeklies |
 | 17/09 | 10:00-12:00 | [Dependency Analysis of Imperative Loops](slides/L5-LoopParI.pdf) | Chapter 5 of lecture Notes |
 | 17/09 | 13:00-15:00 |  | helping with the first two weekly assignments.
 | 17/09 |  | No new weekly assignment this week; the third will be published next week | |
 | 22/09 | 13:00-15:00 | [Demonstrating Simple Techniques for Optimizing Locality](slides/L6-locality.pdf) | Chapter 5 and 6 of Lecture Notes |
-| 22/09 | 15:00-17:00 | [**Assignment 3+4 handout**](weeklies/weekly-3-4/) | helping with the weekly assignments. |
+| 22/09 | 15:00-17:00 | [**Assignment 3+4 handout**](weeklies/assignment-3-4/) | helping with the weekly assignments. |
 | 24/09 | 10:00-12:00 | [Optimizing Locality Continuation](slides/L6-locality.pdf); [Optimizing Locality same idea in other words: Nearest Neighbor, and again Matrix Multiplication and Transposition](slides/L5-LoopParI.pdf) | Chapters 5 and 6 of lecture Notes |
 | 24/09 | 13:00-15:00 | Lab: discussing the third assignment | helping with the weekly assignments.
 | 29/09 | 13:00-15:00 | helping with assignments | due to still not having my voice back
@@ -197,18 +196,18 @@ just before exam week (Assignment 5) and within the exam week (Assignment 6).
 
 ### Assignment 1 (due September 10th)
 
-* [Assignment text](weeklies/weekly-1/assignment1.asciidoc)
-* [Code handin](weeklies/weekly-1/w1-code-handin.tar.gz)
+* [Assignment text](weeklies/assignment-1/assignment1.asciidoc)
+* [Code handin](weeklies/assignment-1/w1-code-handin.tar.gz)
 
 ### Assignment 2 (due September 22nd)
 
-* [Assignment text](weeklies/weekly-2/assignment2.asciidoc)
-* [Code handout](weeklies/weekly-2/w2-code-handin.tar.gz)
+* [Assignment text](weeklies/assignment-2/assignment2.asciidoc)
+* [Code handout](weeklies/assignment-2/w2-code-handin.tar.gz)
 
 ### Assignments 3+4 (due October 6th) -- this is a bigger assignment counting as two assignments
 
-* [Assignment text](weeklies/weekly-3-4/assignment3-4.asciidoc)
-* [Code handout](weeklies/weekly-3-4/w3-code-handin.tar.gz)
+* [Assignment text](weeklies/assignment-3-4/assignment3-4.asciidoc)
+* [Code handout](weeklies/assignment-3-4/w3-code-handin.tar.gz)
 
 
 ## Assignment 5 + 6 (Group project) tentatively due on 2nd and 5th of November, respsectivelly
