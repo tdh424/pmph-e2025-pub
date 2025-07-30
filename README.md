@@ -234,7 +234,7 @@ programming.
 
 The available machines are equipped with top-end A100 GPUs & two AMD EPYC 7352
 24-Core CPUs (total 96 hardware threads). You should have access to these
-machines from September 2.
+machines from 1st of September.
 
 More specifically, the GPUs are located on the Futhark servers,
 <!-- (access to which is obtained via the Hendrix gateway; connection guide below), -->
@@ -248,8 +248,8 @@ binaries, e.g. compiled using Futhark).
 ### Basic Futhark server connection guide
 
 This basic connection guide is subject to change and may contain errors or
-have missing information. Please ask Anders if you have trouble logging onto the
-servers, or Cosmin, if you suspect the problem is an access/permission issue.
+have missing information. Please ask Jóhann/Nikolaj if you have trouble logging
+onto the servers, or Cosmin, if you suspect the problem is an access/permission issue.
 
 <!--  For more comprehensive info on the Hendrix cluster and how to connect, please see [this](https://diku-dk.github.io/wiki/slurm-cluster). -->
 
@@ -271,7 +271,7 @@ Host futhark03
 to your ssh config file, located in either `$HOME/.ssh/config` for Linux/MacOS,
 or `C:/Users/<user>/.ssh/config` for Windows (note: a simple text file with no
 file extension). Remember to replace `<KU-id>` in line 3 with your personal
-KU-id.  
+KU-id.
 
 You may add other such paragraphs for `hendrixfut01fl` and `hendrixfut02fl`.
 
