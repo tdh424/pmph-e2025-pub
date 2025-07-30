@@ -102,10 +102,10 @@ the lab sessions.
 | 08/09 | 13:00-15:00 | [Parallel Basic Block & Flattening Nested Parallelism (SFT)](slides/L2-Flatenning.pdf) | chapters 3 and 4 in [Lecture Notes](http://hjemmesider.diku.dk/~zgh600/Publications/lecture-notes-pmph.pdf) |
 | 08/09 | 15:00-17:00 | Lab: [Fun Quiz](slides/Lab-fun-quiz.pdf); | help with weekly |
 | 10/09 | 10:00-12:00 | [In-Order Pipelines (HWD)](slides/L3-InOrderPipe.pdf)| Chapter 3 of "Parallel Computer Organization and Design" Book |
-| 10/09 | 13:00-15:00 | Lab: [Reduce and Scan in Cuda](slides/Lab2-RedScan.pdf) | discussing second weekly, helping with the first |
+| 10/09 | 13:00-15:00 | Lab: [Reduce and Scan in Cuda](slides/Lab-RedScan.pdf) | discussing second weekly, helping with the first |
 | 10/09 | some time   | [**Assignment 2 handout**](weeklies/weekly-2/) | |
 | 15/09 | 13:00-15:00 | [In-Order Pipelines (HWD)](slides/L3-InOrderPipe.pdf), [Optimizing ILP, VLIW Architectures (SFT-HWD)](slides/L4-VLIW.pdf) | Chapter 3 of "Parallel Computer Organization and Design" Book |
-| 15/09 | 15:00-17:00 | Lab: [GPU hardware: three important design choices.](slides/Lab2-GPU-HWD.pdf) | helping with weeklies |
+| 15/09 | 15:00-17:00 | Lab: [GPU hardware: three important design choices.](slides/Lab-GPU-HWD.pdf) | helping with weeklies |
 | 17/09 | 10:00-12:00 | [Dependency Analysis of Imperative Loops](slides/L5-LoopParI.pdf) | Chapter 5 of lecture Notes |
 | 17/09 | 13:00-15:00 |  | helping with the first two weekly assignments.
 | 17/09 |  | No new weekly assignment this week; the third will be published next week | |
