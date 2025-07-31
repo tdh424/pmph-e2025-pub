@@ -99,7 +99,7 @@ It is not for granted that you are able to solve them without attending the lab 
 | 03/09 | 13:00-15:00 | Lab: [Futhark programming](HelperCode/README.md), First Weekly | [Futhark code related to the LH lecture](HelperCode/Lect-1-LH) and as well [Futhark code related to flattening](HelperCode/Lect-2-Flat). As facultative but useful material: [Parallel Programming in Futhark](https://futhark-book.readthedocs.io/en/latest/), sections 1-4, |
 | 03/09 | some time   | [**Assignment 1 handout**](weeklies/assignment-1/) | |
 | 08/09 | 13:00-15:00 | [Parallel Basic Block & Flattening Nested Parallelism (SFT)](slides/L2-Flatenning.pdf) | chapters 3 and 4 in [Lecture Notes](http://hjemmesider.diku.dk/~zgh600/Publications/lecture-notes-pmph.pdf) |
-| 08/09 | 15:00-17:00 | Lab: [Fun Quiz](slides/Lab-fun-quiz.pdf); | help with weekly |
+| 08/09 | 15:00-17:00 | Lab: [Fun Quiz](slides/Lab-fun-quiz.pdf); C++ templates and operator overloading [Demo](HelperCode/Demo-C++/) | help with weekly |
 | 10/09 | 10:00-12:00 | [In-Order Pipelines (HWD)](slides/L3-InOrderPipe.pdf)| Chapter 3 of "Parallel Computer Organization and Design" Book |
 | 10/09 | 13:00-15:00 | Lab: [Reduce and Scan in Cuda](slides/Lab-RedScan.pdf) | discussing second weekly, helping with the first |
 | 10/09 | some time   | [**Assignment 2 handout**](weeklies/assignment-2/) | |
