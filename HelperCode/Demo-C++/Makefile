@@ -11,9 +11,9 @@ default: compile run
 #	$(CXX) -c $@ $<
 
 
-template: helper.h demo-template.cpp
-	$(CXX) demo-template.cpp -o demo-template
-	./demo-template 100000 
+templates: helper.h templates.cpp
+	$(CXX) templates.cpp -o templates
+	./templates 100000 
 
 clean:
-	rm -f demo-template
+	rm -f templates
