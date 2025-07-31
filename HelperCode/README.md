@@ -1,4 +1,4 @@
-# Helpful Hints about Cuda and Futhark Programming
+# Helpful Hints about Cuda, Futhark and C++ Programming
 
 ## Lab 1: Simple CUDA Programming
 
@@ -26,3 +26,8 @@ If runtimes are displayed then the program also validated (in the cases for whic
 
 Please also read the comment below function `mk_input` in `mssp.fut`. This dynamic casting of type sizes will be very useful later on, when we flatten parallelism in Futhark.
 
+## Lab3: C++ programming demonstrating templates and operator overloading
+
+File [Demo-C++/templates.cpp](Demo-C++/templates.cpp) demonstrates the use of C++ templates aimed at building a result vector by applying a generic binary operator to corresponding elements from two input vectors. This is tested for addition and multiplication operators. Moreover, we demonstrate generic-type towers by also abstracting out as a type parameter the underlying element type. For example, we can define addition over vectors of floats, but also over vector of complex numbers. Of course, the latter requires defining a `Complex` class that is itself parameterized over the underlying numeric type, and which overloads the `+` and `*` operators.
+
+File [Demo-C++/stencil.cpp](Demo-C++/stencil.cpp) shows a straightforward implementation of a 2D stencil of radius one. Function `stencil2DFlat` implements the stencil by flattening the indexing, because in C++ and CUDA it is not possible to declare multi-dimensional arrays when their shape is not statically known. Function `stencil2DNice` demonstrates how nicer expression can be achieved by using a wrapper class `Array2D` which overloads the `[]` operator, thus allowing multidimensional indexing of form `[i][j]`. Importantly, this does not diminish performance because the `gcc/nvcc` compiler can inline and optimize away the intermediate structures. Similarly as before, templates can be used to abstract out the element type. 
