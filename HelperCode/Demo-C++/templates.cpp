@@ -8,7 +8,7 @@
 
 /**
  * Complex Number over some base numeric type T
- *   Requires: + and * operators are defined on T.
+ * Requires: + and * operators are defined on T.
  */
 template<class T>
 class Complex {
@@ -67,7 +67,7 @@ applyBinOp2Vect( const uint64_t N
                , typename Bop::BType* result
                )
 {
-  for(int i = 0; i < N; i++) {
+  for(uint64_t i = 0; i < N; i++) {
     result[i] = Bop::apply(vector1[i], vector2[i]);
   }
 }
@@ -78,7 +78,7 @@ int main (int argc, char * argv[]) {
         exit(1);
     }
     // read the vector length
-    const uint64_t N = atoi(argv[1]);
+    const uint64_t N = atoi(argv[1]); 
     
     // allocate memory
     void* mem1  = malloc(N * sizeof(double));
@@ -87,8 +87,8 @@ int main (int argc, char * argv[]) {
     void* memr2 = malloc(N * sizeof(double));
     
     // randomly initializing the input array 
-    initArray(2*N, (float*)mem1);
-    initArray(2*N, (float*)mem2);
+    initArray<float>(2*N, (float*)mem1);
+    initArray<float>(2*N, (float*)mem2);
 
     {
       printf("Running Addition on vectors of length %lu using float as element type\n", 2*N);
@@ -103,7 +103,7 @@ int main (int argc, char * argv[]) {
       applyBinOp2Vect< Add<C> >( N, vect1, vect2, res );
     }
     
-    validate(2*N, (float*)memr1, (float*)memr2);
+    validate<float>(2*N, (float*)memr1, (float*)memr2);
 
     {
       printf("Running Multiplication on vectors of length %lu using double as element type\n", N);
