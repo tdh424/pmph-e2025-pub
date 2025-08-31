@@ -57,17 +57,13 @@ section](#assignments).
 
 Teachers: 
 
-* **Cosmin Oancea** ([cosmin.oancea@diku.dk](mailto:cosmin.oancea@diku.dk)). Cosmin is typically holding most lectures and labs of PMPH, but this year he might be in parental leave for the first week(s) of the course.
-* **Nikolaj Hinnerskov** [nihi@di.ku.dk](mailto:nihi@di.ku.dk). Nikolaj might have to hold the lectures and labs of the first week. 
-* **Martin Elsman**      [mael@di.ku.dk](mailto:mael@di.ku.dk). If necessary, Martin and Nikolaj will collaborate to cover the lectures and labs of the second week of the course.
+* **Cosmin Oancea** ([cosmin.oancea@diku.dk](mailto:cosmin.oancea@diku.dk)). Cosmin will hold the lectures and labs of PMPH.
 
 Teaching assistants (TAs):
 * **Jóhann Utne** [johann.utne@di.ku.dk](mailto:johann.utne@di.ku.dk)
-* ...
+* **Nikolaj Hinnerskov** [nihi@di.ku.dk](mailto:nihi@di.ku.dk)
 
-Cosmin typically conducts the lectures and lab sessions, but this year he might be in parental leave for the first two week(s) of the course. If so, the plan is that Nikolaj will hold the lectures and labs of the first week of the course, and, if necessary, Nikolaj and Martin will collaborate to cover the second week. 
-
-Jóhann and Yet-Unknown-TA will be (pre-)grading your first 4 assignments, will be patrolling the online (Absalon) discussion forums, and will assist with lab sessions.
+Jóhann and Nikolaj will be (pre-)grading your first 4 assignments, will be patrolling the online (Absalon) discussion forums, and may assist in the lab sessions.
 
 ### Course Tracks and Resources
 
@@ -89,7 +85,7 @@ This course schedule is tentative and will be updated as we go along.
 The links will become functional as we get near to the corresponding date.
 
 The lab sessions are aimed at providing help for the assignments, i.e., the four weeklies and the group project.
-It is not for granted that you are able to solve them without attending the lab sessions.
+It is not for granted that you are able to solve them without attending the (lectures and) lab sessions.
 
 | Date | Time | Topic | Material |
 | --- | --- | --- | --- |
