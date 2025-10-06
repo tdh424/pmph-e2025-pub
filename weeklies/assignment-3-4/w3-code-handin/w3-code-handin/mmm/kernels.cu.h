@@ -97,7 +97,16 @@ __global__ void mmmSymBlkRegInnSeqKer(ElTp* A, ElTp* B, ElTp* C, int heightA, in
        *      should expand to something like: A[ ... + threadIdx.x]
        **************************************************************/
       
-       // Please implement Task 3.1.1 here
+      for (int r = 0; r < Ry; ++r) {
+        int a_row = iii + threadIdx.y * Ry + r;   // 0 .. Ty*Ry-1 mapped per thread
+        int a_col = kk  + threadIdx.x;            // 0 .. Tk-1 (Tx == Tk)
+    
+        ElTp v = (ElTp)0;
+        if (a_row < heightA && a_col < widthA) {
+            v = A[a_row * widthA + a_col];        // coalesced along threadIdx.x
+        }
+        Aloc[threadIdx.y * Ry + r][threadIdx.x] = v;
+      }
 
       /***************************************
        * Subtask 3.1.2:
@@ -127,7 +136,16 @@ __global__ void mmmSymBlkRegInnSeqKer(ElTp* A, ElTp* B, ElTp* C, int heightA, in
        **************************************************************/
 
       // Please implement Task 3.1.2 here
-
+      for (int c = 0; c < Rx; ++c) {
+        int b_row = kk  + threadIdx.y;                 // 0 .. Tk-1 (Ty == Tk)
+        int b_col = jjj + threadIdx.x * Rx + c;        // expand across Rx
+    
+        ElTp v = (ElTp)0;
+        if (b_row < widthA && b_col < widthB) {        // rows = widthA, cols = widthB
+            v = B[b_row * widthB + b_col];             // coalesced along threadIdx.x
+        }
+        Bloc[threadIdx.y][threadIdx.x * Rx + c] = v;
+      }
       __syncthreads();
 
       // compute the per-thread result css:
@@ -146,13 +164,9 @@ __global__ void mmmSymBlkRegInnSeqKer(ElTp* A, ElTp* B, ElTp* C, int heightA, in
                  * This assumes of course that you have 
                  *   already solved Task 3.1.
                  ***************************************/
-                  if( (iii + threadIdx.y*Ry + i < heightA) &&
-                      (kk+k < widthA) &&
-                      (jjj + threadIdx.x*Rx + j < widthB)
-                    )
-                  css[i][j] +=  
-                    A[ (iii + threadIdx.y*Ry + i)*widthA + (kk + k)] *
-                    B[ (kk+k)*widthB + jjj + threadIdx.x*Rx + j] ;
+                css[i][j] += 
+                  Aloc[threadIdx.y * Ry + i][k] *
+                  Bloc[k][threadIdx.x * Rx + j];
               }
           }
       }
